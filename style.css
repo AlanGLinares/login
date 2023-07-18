@@ -1,0 +1,124 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background: linear-gradient(18deg, rgba(136,68,238,1) 0%, rgba(61,0,244,0.938813025210084) 78%);
+}
+
+
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+
+.card {
+  margin: auto;
+  background-color: #f7f7f7;
+  height: 600px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px -2px rgba(0,0,0,0.75);
+}
+
+
+.user-password {
+  padding: 60px;
+  
+}
+
+.user-password h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 32px;
+}
+
+.user-password p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 4px;
+}
+
+.user-password span {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 5px;
+}
+
+.user-password h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.user-password a {
+  font-size: 14px;
+  color: #1877F2;
+  text-decoration: underline;
+
+}
+
+.input-content {
+  display: flex;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 30px;
+  border-radius: 4px;
+  padding-left: 6px;
+  margin-bottom: 12px;
+}
+
+
+.btn {
+  display: grid;
+  text-align: center;
+  width: max-content;
+  width: 300px;
+  padding: 10px;
+  height: 40px;
+  background-color: #1877F2;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.btn p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer div {
+  text-align: center;
+}
+
+
+
+.footer {
+  justify-content: center;
+  align-content: flex-end;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
